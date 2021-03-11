@@ -49,25 +49,95 @@
         </div>
       </nav>
     <h1>Contact</h1>
+    <h2>Need some ways to reach me?</h2>
     <div class="container">
         <div class="row">
           <div class="col-sm">
             Number: (731)616-3256<br>
             Email: randcjowers@yahoo.com<br>
             Hours: 6pm - 8pm<br>
-          </div>
-          <div class="col-sm">
-            One of three columns
-          </div>
-          <div class="col-sm">
-            One of three columns
-          </div>
+            Service Areas:
+            <ul>
+              <li>Lexington, TN</li>
+              <li>Jackson, TN</li>
+              <li>Medina, TN</li>
+              <li>Milan, TN</li>
+              <li>and other neighboring cities!</li>
+            </ul>
         </div>
+      </div>
+      <div class="container" id="formpage">
+        <form method="post" name="myemailform" action="form-to-email.php">
+          <div class="row formrow">
+            <div class="col-25 formcol25">
+              <label for="fname">First Name</label>
+            </div>
+            <div class="col-75 formcol75">
+              <input type="text" id="fname" name="firstname" placeholder="Your first name...">
+            </div>
+          </div>
+          <div class="row formrow">
+            <div class="col-25 formcol25">
+              <label for="lname">Last Name</label>
+            </div>
+            <div class="col-75 formcol75">
+              <input type="text" id="lname" name="lastname" placeholder="Your last name...">
+            </div>
+          </div>
+          <div class="row formrow">
+            <div class="col-25 formcol25">
+              <label for="pnumber">Phone Number</label>
+            </div>
+            <div class="col-75 formcol75">
+              <input type="text" id="pnumber" name="phonenumber" placeholder="Your phone number...">
+            </div>
+          </div>
+          <div class="row formrow">
+            <div class="col-25 formcol25">
+              <label for="eaddress">E-Mail</label>
+            </div>
+            <div class="col-75 formcol75">
+              <input type="text" id="eaddress" name="email" placeholder="Your e-mail address...">
+            </div>
+          </div>
+          <div class="row formrow">
+            <div class="col-25 formcol25">
+              <label for="country">Location</label>
+            </div>
+            <div class="col-75 formcol75">
+              <select id="country" name="country">
+                <option value="" disabled selected>Your city and ZIP</option>
+                <option value="jackson">Jackson, 38301</option>
+                <option value="jackson-2">Jackson, 38305</option>
+                <option value="beechbluff">Beech Bluff/Luray, 38313</option>
+                <option value="lexington">Lexington, 38351</option>
+                <option value="medina">Medina, 38355</option>
+                <option value="milan">Milan, 38358</option>
+                <option value="other">Other (please state in request)</option>
+              </select>
+            </div>
+          </div>
+          <div class="row formrow">
+            <div class="col-25 formcol25">
+              <label for="subject">Your Request:</label>
+            </div>
+            <div class="col-75 formcol75">
+              <textarea id="subject" name="subject" placeholder="Let us know..." style="height:200px"></textarea>
+            </div>
+          </div>
+          <div class="row formrow">
+            <input type="submit" value="Submit">
+          </div>
+        </form>
       </div>
 
 
-
-
+<!--<?php
+  $name = $_POST['name'];
+  $visitor_email = $_POST['email'];
+  $message = $_POST['message'];
+?>
+-->
 
 
 

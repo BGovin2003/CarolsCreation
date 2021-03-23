@@ -1,5 +1,5 @@
 h1 {
-    color:aquamarine;
+    color:rgb(211, 131, 11);
 }
 
 /* CONTACT FORM */
@@ -21,8 +21,8 @@ input[type=text], select, textarea{
   
   /* Style the submit button */
   input[type=submit] {
-    background-color: #4CAF50;
-    color: white;
+    background-color: #333faa;
+    color: rgb(255, 255, 255);
     padding: 12px 20px;
     border: none;
     border-radius: 4px;

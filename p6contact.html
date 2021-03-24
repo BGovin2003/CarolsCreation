@@ -67,13 +67,13 @@
         </div>
       </div>
       <div class="container" id="formpage">
-        <form method="post" name="myemailform" action="send-email-form.php">
+        <form id="emailform" name="myemailform" action="https://formspree.io/f/xgerwzao" accept-charset="utf-8" method="POST">
           <div class="row formrow">
             <div class="col-25 formcol25">
               <label for="fname">First Name</label>
             </div>
             <div class="col-75 formcol75">
-              <input type="text" id="fname" name="firstname" placeholder="Your first name...">
+              <input type="text" id="fname" name="first-name" placeholder="Your first name...">
             </div>
           </div>
           <div class="row formrow">
@@ -81,7 +81,7 @@
               <label for="lname">Last Name</label>
             </div>
             <div class="col-75 formcol75">
-              <input type="text" id="lname" name="lastname" placeholder="Your last name...">
+              <input type="text" id="lname" name="last-name" placeholder="Your last name...">
             </div>
           </div>
           <div class="row formrow">
@@ -89,7 +89,7 @@
               <label for="pnumber">Phone Number</label>
             </div>
             <div class="col-75 formcol75">
-              <input type="text" id="pnumber" name="phonenumber" placeholder="Your phone number...">
+              <input type="text" id="pnumber" name="phone-number" placeholder="Your phone number...">
             </div>
           </div>
           <div class="row formrow">
@@ -107,22 +107,22 @@
             <div class="col-75 formcol75">
               <select id="city" name="location">
                 <option value="" disabled selected>Your city and ZIP</option>
-                <option value="jackson">Jackson, 38301</option>
-                <option value="jackson-2">Jackson, 38305</option>
-                <option value="beechbluff">Beech Bluff/Luray, 38313</option>
-                <option value="lexington">Lexington, 38351</option>
-                <option value="medina">Medina, 38355</option>
-                <option value="milan">Milan, 38358</option>
+                <option value="jackson-38301">Jackson, 38301</option>
+                <option value="jackson-38305">Jackson, 38305</option>
+                <option value="beechbluff-luray-38313">Beech Bluff/Luray, 38313</option>
+                <option value="lexington-38351">Lexington, 38351</option>
+                <option value="medina-38355">Medina, 38355</option>
+                <option value="milan-38358">Milan, 38358</option>
                 <option value="other">Other (please state in request)</option>
               </select>
             </div>
           </div>
           <div class="row formrow">
             <div class="col-25 formcol25">
-              <label for="message">Your Message:</label>
+              <label for="usermessage">Your Message:</label>
             </div>
             <div class="col-75 formcol75">
-              <textarea id="message" name="usermessage" placeholder="Questions? Requests? Let us know..." style="height:200px"></textarea>
+              <textarea id="usermessage" name="message" placeholder="Questions? Requests? Let us know..." style="height:200px"></textarea>
             </div>
           </div>
           <div class="row formrow">

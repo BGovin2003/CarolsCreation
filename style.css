@@ -65,3 +65,9 @@ input[type=text], select, textarea{
       margin-top: 0;
     }
   }
+
+  /* Images in tutorials/the knitting tutorial */
+  .tutorial-img {
+    max-width:100%;
+    height:auto;
+  }

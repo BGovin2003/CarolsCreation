@@ -6,7 +6,7 @@
 #CC3035 - red
 #E66A6D - pink
 #D89288 - light pink
-#E2DCD1 - dark white
+#E2DCD1 - dark white <-- #d1d7e2 is complementary
 #F2EDE6 - bright white
 */
 
@@ -22,113 +22,137 @@
      ##########    ##########   ##########   ##########   ##        ##   ##########   */
 
 body {
-  background-color:#F2EDE6;
+  background-color: #F2EDE6;
 }
 
 /* Background colors (from palette) */
 .bg-darkteal {
-  background-color:#006F7A;
+  background-color: #006F7A;
 }
+
 .bg-teal {
-  background-color:#03a6a6;
+  background-color: #03a6a6;
 }
+
 .bg-red {
-  background-color:#CC3035;
+  background-color: #CC3035;
 }
+
 .bg-pink {
-  background-color:#E66A6D;
+  background-color: #E66A6D;
 }
+
 .bg-lightpink {
-  background-color:#D89288;
+  background-color: #D89288;
 }
+
 .bg-darkwhite {
-  background-color:#E2DCD1;
+  background-color: #E2DCD1;
 }
+
 .bg-brightwhite {
-  background-color:#F2EDE6;
+  background-color: #F2EDE6;
 }
 
 /* Text colors (from palette) */
 .text-darkdarkteal {
-  color:#003236;
+  color: #003236;
 }
+
 .text-darkteal {
-  color:#006F7A;
+  color: #006F7A;
 }
+
 .text-teal {
-  color:#03a6a6;
+  color: #03a6a6;
 }
+
 .text-darkred {
-  color:#491A1B
+  color: #491A1B
 }
+
 .text-red {
-  color:#CC3035;
+  color: #CC3035;
 }
+
 .text-pink {
-  color:#E66A6D;
+  color: #E66A6D;
 }
+
 .text-lightpink {
-  color:#D89288;
+  color: #D89288;
 }
+
 .text-darkwhite {
-  color:#E2DCD1;
+  color: #E2DCD1;
 }
+
 .text-brightwhite {
-  color:#F2EDE6;
+  color: #F2EDE6;
 }
 
 /* Button colors (from palette) */
 .btn-darkteal {
-  background-color:#006F7A;
-  color:#F2EDE6;
-  font-weight:500;
+  background-color: #006F7A;
+  color: #F2EDE6;
+  font-weight: 500;
 }
+
 .btn-teal {
-  background-color:#03a6a6;
-  color:#F2EDE6;
-  font-weight:500;
+  background-color: #03a6a6;
+  color: #F2EDE6;
+  font-weight: 500;
 }
+
 .btn-red {
-  background-color:#CC3035;
-  color:#F2EDE6;
-  font-weight:500;
+  background-color: #CC3035;
+  color: #F2EDE6;
+  font-weight: 500;
 }
+
 .btn-pink {
-  background-color:#E66A6D;
-  color:#F2EDE6;
-  font-weight:500;
+  background-color: #E66A6D;
+  color: #F2EDE6;
+  font-weight: 500;
 }
+
 .btn-lightpink {
-  background-color:#D89288;
-  color:#CC3035;
-  font-weight:500;
+  background-color: #D89288;
+  color: #CC3035;
+  font-weight: 500;
 }
+
 .btn-darkwhite {
-  background-color:#E2DCD1;
-  color:#CC3035;
-  font-weight:500;
+  background-color: #E2DCD1;
+  color: #CC3035;
+  font-weight: 500;
 }
+
 .btn-brightwhite {
-  background-color:#F2EDE6;
-  color:#CC3035;
-  font-weight:500;
+  background-color: #F2EDE6;
+  color: #CC3035;
+  font-weight: 500;
 }
 
 /* soft black and grey text colors */
 .soft-blk {
-  color:#0e1111;
+  color: #0e1111;
 }
+
 .dk-grey {
-  color:#232b2b;
+  color: #232b2b;
 }
+
 .warm-grey {
-  color:#353839;
+  color: #353839;
 }
+
 .blue-grey {
-  color:#3b444b;
+  color: #3b444b;
 }
+
 .cool-grey {
-  color:#414a4c;
+  color: #414a4c;
 }
 
 
@@ -175,7 +199,7 @@ body {
 
 /* Padding */
 .padding {
-  padding:2rem;
+  padding: 2rem;
 }
 
 
@@ -191,23 +215,35 @@ body {
     ##           ##        ##  ##        ##       ##       ##          ##       ##
     ##            ##########    ##########        ##       ##########  ##        ##
 
-/* Footer */
+/* Footer general */
 footer {
   background-color: #006F7A;
 }
+
+.ftr-text {
+  padding-top: .5em;
+  padding-bottom: 0em;
+}
+
 .ftr-copy {
-  text-align:center;
+  text-align: center;
+  color: #d1d7e2;
+  padding-top: 0em;
+  padding-bottom: .5em;
 }
 
 /* Icons */
-.fa-facebook-f {
-  color:#E2DCD1;
-}
-.fa-envelope {
-  color:#E2DCD1;
-}
+.fa-facebook-f,
+.fa-envelope,
 .fa-phone {
-  color:#E2DCD1;
+  color: #E2DCD1;
+  padding-bottom: 0em;
+  padding-top: 1em;
+}
+
+.fa-envelope {
+  padding-left: 1em;
+  padding-right: 1em;
 }
 
 
@@ -221,7 +257,7 @@ footer {
     ##           ##        ##   ##      ##    ##          ##
     ##           ##        ##   ##       ##   ##          ##
     ##            ##########    ##        ##  ##          ##  */
-    
+
 
 /* CONTACT FORM */
 /* Style inputs, select elements and textareas */

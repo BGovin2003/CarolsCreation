@@ -76,10 +76,11 @@
         </ul>
 
         <!-- Navbar search -->
+        <!--
         <form class="d-flex">
           <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
           <button class="btn btn-outline-light" type="submit">Search</button>
-        </form>
+        </form> -->
       </div>
     </div>
   </nav>
@@ -101,72 +102,109 @@
         </ul>
       </div>
     </div>
-    <div class="container" id="formpage">
-      <form id="emailform" name="myemailform" action="https://formspree.io/f/xgerwzao" accept-charset="utf-8"
-        method="POST">
-        <div class="row formrow">
-          <div class="col-25 formcol25">
-            <label for="fname">First Name</label>
-          </div>
-          <div class="col-75 formcol75">
-            <input type="text" id="fname" name="first-name" placeholder="Your first name...">
-          </div>
+  </div>
+  <div class="container" id="formpage">
+    <form id="emailform" name="myemailform" action="https://formspree.io/f/xgerwzao" accept-charset="utf-8"
+      method="POST">
+      <div class="row formrow">
+        <div class="col-25 formcol25">
+          <label for="fname">First Name</label>
         </div>
-        <div class="row formrow">
-          <div class="col-25 formcol25">
-            <label for="lname">Last Name</label>
-          </div>
-          <div class="col-75 formcol75">
-            <input type="text" id="lname" name="last-name" placeholder="Your last name...">
-          </div>
+        <div class="col-75 formcol75">
+          <input type="text" id="fname" name="first-name" placeholder="Your first name...">
         </div>
-        <div class="row formrow">
-          <div class="col-25 formcol25">
-            <label for="pnumber">Phone Number</label>
-          </div>
-          <div class="col-75 formcol75">
-            <input type="text" id="pnumber" name="phone-number" placeholder="Your phone number...">
-          </div>
+      </div>
+      <div class="row formrow">
+        <div class="col-25 formcol25">
+          <label for="lname">Last Name</label>
         </div>
-        <div class="row formrow">
-          <div class="col-25 formcol25">
-            <label for="eaddress">E-Mail</label>
-          </div>
-          <div class="col-75 formcol75">
-            <input type="text" id="eaddress" name="email" placeholder="Your e-mail address...">
-          </div>
+        <div class="col-75 formcol75">
+          <input type="text" id="lname" name="last-name" placeholder="Your last name...">
         </div>
-        <div class="row formrow">
-          <div class="col-25 formcol25">
-            <label for="city">Location</label>
-          </div>
-          <div class="col-75 formcol75">
-            <select id="city" name="location">
-              <option value="" disabled selected>Your city and ZIP</option>
-              <option value="jackson-38301">Jackson, 38301</option>
-              <option value="jackson-38305">Jackson, 38305</option>
-              <option value="beechbluff-luray-38313">Beech Bluff/Luray, 38313</option>
-              <option value="lexington-38351">Lexington, 38351</option>
-              <option value="medina-38355">Medina, 38355</option>
-              <option value="milan-38358">Milan, 38358</option>
-              <option value="other">Other (please state in request)</option>
-            </select>
-          </div>
+      </div>
+      <div class="row formrow">
+        <div class="col-25 formcol25">
+          <label for="pnumber">Phone Number</label>
         </div>
-        <div class="row formrow">
-          <div class="col-25 formcol25">
-            <label for="usermessage">Your Message:</label>
-          </div>
-          <div class="col-75 formcol75">
-            <textarea id="usermessage" name="message" placeholder="Questions? Requests? Let us know..."
-              style="height:200px"></textarea>
-          </div>
+        <div class="col-75 formcol75">
+          <input type="text" id="pnumber" name="phone-number" placeholder="Your phone number...">
         </div>
-        <div class="row formrow">
-          <input type="submit" name="send" value="Submit">
+      </div>
+      <div class="row formrow">
+        <div class="col-25 formcol25">
+          <label for="eaddress">E-Mail</label>
         </div>
-      </form>
+        <div class="col-75 formcol75">
+          <input type="text" id="eaddress" name="email" placeholder="Your e-mail address...">
+        </div>
+      </div>
+      <div class="row formrow">
+        <div class="col-25 formcol25">
+          <label for="city">Location</label>
+        </div>
+        <div class="col-75 formcol75">
+          <select id="city" name="location">
+            <option value="" disabled selected>Your city and ZIP</option>
+            <option value="jackson-38301">Jackson, 38301</option>
+            <option value="jackson-38305">Jackson, 38305</option>
+            <option value="beechbluff-luray-38313">Beech Bluff/Luray, 38313</option>
+            <option value="lexington-38351">Lexington, 38351</option>
+            <option value="medina-38355">Medina, 38355</option>
+            <option value="milan-38358">Milan, 38358</option>
+            <option value="other">Other (please state in request)</option>
+          </select>
+        </div>
+      </div>
+      <div class="row formrow">
+        <div class="col-25 formcol25">
+          <label for="usermessage">Your Message:</label>
+        </div>
+        <div class="col-75 formcol75">
+          <textarea id="usermessage" name="message" placeholder="Questions? Requests? Let us know..."
+            style="height:200px"></textarea>
+        </div>
+      </div>
+      <div class="row formrow">
+        <input type="submit" name="send" value="Submit">
+      </div>
+    </form>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+
+    <div class="container-fluid footer-padding text-secondary bg-darkteal">
+
+      <!-- Logo -->
+      <div class="row bg-darkteal">
+        <div class="col-12 text-center">
+          <img src="#" class="ftr-logo">
+        </div>
+      </div>
+
+      <!-- Font Awesome Icons -->
+      <div class="row bg-darkteal">
+        <div class="col-12 text-center">
+          <a href="https://www.facebook.com/carol.jowers" class="icon">
+            <i class="fab fa-facebook-f fa-2x"></i>
+          </a>
+          <i class="fas fa-envelope fa-2x"></i>
+          <a href="tel:18336882697" class="icon">
+            <i class="fas fa-phone fa-2x"></i>
+          </a>
+        </div>
+      </div>
+
+
+      <!-- Copyright row -->
+      <div class="row bg-darkteal">
+        <div class="col-12 text-center">
+          <p class="ftr-copy">&copy; HTMLephants for Carol's Creations</p>
+        </div>
+      </div>
     </div>
+
+  </footer>
 
 </body>
 

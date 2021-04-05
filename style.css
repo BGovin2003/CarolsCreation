@@ -23,6 +23,7 @@
 
 body {
   background-color: #F2EDE6;
+  width:100%;
 }
 
 /* Background colors (from palette) */
@@ -168,9 +169,11 @@ body {
     ############  ##          ##  ##        ##   ##########   ##########   ##########   */
 
 /* Images in tutorials/the knitting tutorial */
-.tutorial-img {
+.guide-img {
   max-width: 100%;
   height: auto;
+  padding:.3em;
+  border-radius:.45rem;
 }
 
 /* Carousel images */
@@ -197,9 +200,23 @@ body {
   font-weight: bold;
 }
 
-/* Padding */
-.padding {
-  padding: 2rem;
+
+
+
+/*  ###       ##    ########    ##        ##  ##########      ########    ##########
+    ## ##     ##   ##      ##   ##        ##  ##       ##    ##      ##   ##       ##
+    ##  ##    ##  ##        ##  ##        ##  ##       ##   ##        ##  ##        ##
+    ##   ##   ##  ##        ##  ##        ##  ##########    ##        ##  ##       ##
+    ##    ##  ##  ############   ##      ##   ##       ##   ############  ##########
+    ##     ## ##  ##        ##    ##    ##    ##        ##  ##        ##  ##      ##
+    ##      ####  ##        ##     ##  ##     ##       ##   ##        ##  ##       ##
+    ##       ###  ##        ##      ####      ##########    ##        ##  ##        ##  */
+
+/* Logo */
+.navbar-img {
+  height:3.5rem;
+  width:auto;
+  padding-left:1.5rem;
 }
 
 
@@ -213,13 +230,9 @@ body {
     ##           ##        ##  ##        ##       ##       ##          ##########
     ##           ##        ##  ##        ##       ##       ##          ##      ##
     ##           ##        ##  ##        ##       ##       ##          ##       ##
-    ##            ##########    ##########        ##       ##########  ##        ##
+    ##            ##########    ##########        ##       ##########  ##        ##   */
 
-/* Footer general */
-footer {
-  background-color: #006F7A;
-}
-
+/* Footer texts */
 .ftr-text {
   padding-top: .5em;
   padding-bottom: 0em;
@@ -228,8 +241,7 @@ footer {
 .ftr-copy {
   text-align: center;
   color: #d1d7e2;
-  padding-top: 0em;
-  padding-bottom: .5em;
+  padding-top: 1.3rem;
 }
 
 /* Icons */
@@ -240,10 +252,71 @@ footer {
   padding-bottom: 0em;
   padding-top: 1em;
 }
-
 .fa-envelope {
   padding-left: 1em;
   padding-right: 1em;
+}
+
+/* Padding */
+.footer-padding {
+  padding-top: 1rem;
+  padding-bottom:.25rem;
+}
+
+/* Logo */
+.ftr-logo {
+  width:auto;
+}
+
+/* Footer */
+
+
+
+
+/*   ##########   ##        ##  ##########  #########     ##########   ##########
+    ##        ##  ##        ##      ##      ##      ##    ##          ##
+    ##            ##        ##      ##      ##       ##   ##          ##
+    ##            ##        ##      ##      ##        ##  #########    ##########
+    ##  #######   ##        ##      ##      ##        ##  ##                    ##
+    ##        ##  ##        ##      ##      ##       ##   ##                    ##
+    ##        ##  ##        ##      ##      ##      ##    ##                    ##
+     ##########    ##########   ##########  #########     ##########   ##########   */
+
+.guide-card {
+  width:90%;
+  margin:auto;
+}
+.guide-name {
+  font-size:2em;
+  padding-bottom:0em;
+  margin-bottom:.2em;
+}
+.guide-diff {
+  padding-top:0em;
+  margin-top:0em;
+  margin-bottom:.5em;
+}
+.guide-mtls {
+  font-weight:500;
+  margin-top:0em;
+  margin-bottom:.5em;
+  font-style:italic;
+}
+
+/* Horizontal rule */
+.guide-hr {
+  margin-top:.3em;
+}
+
+/* Icons and difficulty */
+.fa-user-check, .beginner {
+  color:#2AB83E;
+}
+.fa-user-clock, .intermediate {
+  color:#E8AD00;
+}
+.fa-user-lock, .advanced {
+  color:#B82A2A;
 }
 
 
@@ -280,19 +353,20 @@ label {
 
 /* Style the submit button */
 input[type=submit] {
-  background-color: rgb(51, 63, 170);
+  background-color: #CC3035;
   color: rgb(255, 255, 255);
   padding: 12px 20px;
   border: none;
   border-radius: 4px;
   cursor: pointer;
   float: right;
+  width:100%;
 }
 
 /* Style the container */
 #formpage {
   border-radius: 5px;
-  background-color: #f2f2f2;
+  background-color: #E2DCD1;
   padding: 20px;
 }
 
@@ -301,6 +375,7 @@ input[type=submit] {
   float: left;
   width: 25%;
   margin-top: 6px;
+  padding-left: .75rem;
 }
 
 /* Floating column for inputs: 75% width */
@@ -308,6 +383,7 @@ input[type=submit] {
   float: left;
   width: 75%;
   margin-top: 6px;
+  padding-right: .75rem;
 }
 
 /* Clear floats after the columns */

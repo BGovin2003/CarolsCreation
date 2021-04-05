@@ -98,11 +98,17 @@ body {
   color: #F2EDE6;
   font-weight: 500;
 }
+.btn-darkteal:hover{
+  color:#03a6a6;
+}
 
 .btn-teal {
   background-color: #03a6a6;
   color: #F2EDE6;
   font-weight: 500;
+}
+.btn-teal:hover{
+  color:#006F7A;
 }
 
 .btn-red {
@@ -110,17 +116,26 @@ body {
   color: #F2EDE6;
   font-weight: 500;
 }
+.btn-red:hover {
+  color:#491A1B;
+}
 
 .btn-pink {
   background-color: #E66A6D;
   color: #F2EDE6;
   font-weight: 500;
 }
+.btn-pink:hover {
+  color:#491A1B;
+}
 
 .btn-lightpink {
   background-color: #D89288;
-  color: #CC3035;
+  color: #F2EDE6;
   font-weight: 500;
+}
+.btn-lightpink:hover {
+  color:#CC3035;
 }
 
 .btn-darkwhite {
@@ -128,11 +143,17 @@ body {
   color: #CC3035;
   font-weight: 500;
 }
+.btn-darkwhite:hover {
+  color:#491A1B;
+}
 
 .btn-brightwhite {
   background-color: #F2EDE6;
   color: #CC3035;
   font-weight: 500;
+}
+.btn-brightwhite:hover {
+  color:#491A1B;
 }
 
 /* soft black and grey text colors */
@@ -265,7 +286,9 @@ body {
 
 /* Logo */
 .ftr-logo {
+  height:12rem;
   width:auto;
+  padding-right:1.75rem;
 }
 
 /* Footer */

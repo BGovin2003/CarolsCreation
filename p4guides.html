@@ -29,11 +29,8 @@
 <body>
 
   <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-info">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-teal">
     <div class="container-fluid">
-
-      <!-- Navbar logo -->
-      <a class="navbar-brand" href="#">Navbar</a>
 
       <!-- Navbar collapse -->
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -43,7 +40,7 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
         <!-- Navbar links-->
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
           <li class="nav-item">
             <a class="nav-link" href="index.html">Home</a>
           </li>
@@ -76,6 +73,13 @@
           </li>
         </ul>
 
+
+        <!-- Navbar logo -->
+        <a class="navbar-brand" href="#">
+          <img class="navbar-img" src="images/logo.png">
+        </a>
+
+
         <!-- Navbar search -->
         <!--
         <form class="d-flex">
@@ -87,16 +91,16 @@
   </nav>
 
 
-  <h1>Guides & DIY's</h1>
+  <h1 class="display-2 text-red page-name guide-page-name">Guides & DIY's</h1>
 
   <!-- Column headers -->
   <div class="container">
     <div class="row">
       <div class="col-6">
-        <h2 class="col-header">Some of my Favorites!</h3>
+        <h2 class="col-header">Learn to Craft!</h2>
       </div>
       <div class="col-6">
-        <p class="col-desc">Materials you will need as well as the instructions and difficulty level</p>
+        <p class="col-desc">Difficulty, Materials, Description</p>
       </div>
     </div>
   </div>
@@ -109,7 +113,7 @@
     <div class="card mb-3 guide-card bg-darkwhite">
       <div class="row no-gutters">
         <div class="col-md-5">
-          <img src="images/english-knitting.jpg" class="card-img guide-img" alt="...">
+          <img src="images/english-knitting.jpg" class="card-img guide-img" alt="Knitting">
         </div>
         <div class="col-md-7">
           <div class="card-body">
@@ -120,7 +124,34 @@
             </p>
             <p class="card-text guide-mtls">knitting needles, yarn, scissors/yarn cutters</p>
             <hr class="guide-hr">
-            <p class="card-text guide-desc">Description</p>
+            <p class="card-text guide-desc">Beginner's guide how to knit! Learn all the basics, including casting on, knitting, purling, binding off, and more!</p>
+            <a href="p7howtoknit.html" class="btn btn-pink">Learn how!</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+
+  <!-- Knitting stitches -->
+  <div class="row">
+    <div class="col-12">
+    <div class="card mb-3 guide-card bg-darkwhite">
+      <div class="row no-gutters">
+        <div class="col-md-5">
+          <img src="#" class="card-img guide-img" alt="...">
+        </div>
+        <div class="col-md-7">
+          <div class="card-body">
+            <h5 class="card-title guide-name">Knitting Stitch Patterns</h5>
+            <p class="card-text guide-diff intermediate">
+              <i class="fas fa-user-clock"></i>
+              Intermediate
+            </p>
+            <p class="card-text guide-mtls">knitting needles, yarn, scissors/yarn cutters, cable needle (some patterns)</p>
+            <hr class="guide-hr">
+            <p class="card-text guide-desc">Knitting stitch patterns for those who already know how to knit.</p>
+            <a href="p8stitches.html" class="btn btn-pink">Learn how!</a>
           </div>
         </div>
       </div>
@@ -143,6 +174,7 @@
             <p class="card-text guide-mtls">Materials</p>
             <hr class="guide-hr">
             <p class="card-text guide-desc">Description</p>
+            <a href="#" class="btn btn-pink">Button</a>
           </div>
         </div>
       </div>
@@ -204,6 +236,8 @@ ADVANCED: <i class="fas fa-user-lock"></i>
 
 <!-- <small class="text-muted">Placeholder</small>-->
 
+
+
   <!-- Footer -->
   <footer>
 
@@ -212,7 +246,7 @@ ADVANCED: <i class="fas fa-user-lock"></i>
       <!-- Logo -->
       <div class="row bg-darkteal">
         <div class="col-12 text-center">
-          <img src="#" class="ftr-logo">
+          <img src="images/logo.png" class="ftr-logo">
         </div>
       </div>
 

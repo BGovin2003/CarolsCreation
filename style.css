@@ -221,6 +221,17 @@ body {
   font-weight: bold;
 }
 
+/* Make text bold and underlined */
+.bold-u {
+  font-weight:bold;
+  text-decoration:underline;
+}
+
+/* Add indent-like padding to the right*/
+.indent-right {
+  padding-right:.75rem;
+}
+
 
 
 
@@ -340,6 +351,12 @@ body {
 }
 .fa-user-lock, .advanced {
   color:#B82A2A;
+}
+
+/* Guide basics */
+.guide-basics {
+  margin-top:.5em;
+  margin-bottom:.5em;
 }
 
 

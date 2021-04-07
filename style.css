@@ -89,7 +89,7 @@ body {
 }
 
 .text-brightwhite {
-  color: #F2EDE6;
+  color: #F2EDE6; 
 }
 
 /* Button colors (from palette) */
@@ -232,6 +232,11 @@ body {
   padding-right:.75rem;
 }
 
+/* Add padding to top */
+.padding-top {
+  padding-top:.5rem;
+}
+
 
 
 
@@ -274,19 +279,23 @@ body {
   text-align: center;
   color: #d1d7e2;
   padding-top: 1.3rem;
+  opacity:75%;
 }
 
 /* Icons */
 .fa-facebook-f,
 .fa-envelope,
 .fa-phone {
-  color: #E2DCD1;
-  padding-bottom: 0em;
-  padding-top: 1em;
+  color: #F2EDE6;
+  padding-bottom: .15em;
+  padding-top: .2em;
 }
 .fa-envelope {
   padding-left: 1em;
   padding-right: 1em;
+}
+.fa-facebook-f:hover, .fa-envelope:hover, .fa-phone:hover {
+  color:#03a6a6;
 }
 
 /* Padding */
@@ -300,9 +309,32 @@ body {
   height:12rem;
   width:auto;
   padding-right:1.75rem;
+  margin-bottom:0rem;
 }
 
 /* Footer */
+.ftr-header {
+  color:#F2EDE6;
+}
+footer p {
+  color:#D89288;
+}
+
+/* Horizontal Rules */
+.ftr-hr, .icons-hr {
+  background-color:#E2DCD1;
+  opacity:25%;
+}
+.icons-hr {
+  width:25%;
+}
+.ftr-hr {
+  width:85%;
+}
+.i-hr-bottom {
+  padding-bottom:0em;
+  margin-bottom:.25rem;
+}
 
 
 

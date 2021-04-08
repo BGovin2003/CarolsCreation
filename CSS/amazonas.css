@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'Amazonas';
+    src: url('Amazonas.woff2') format('woff2'),
+        url('Amazonas.woff') format('woff'),
+        url('Amazonas.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

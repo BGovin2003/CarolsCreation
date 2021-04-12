@@ -317,10 +317,12 @@ body {
 
 /* Logo */
 .ftr-logo {
-  height:12rem;
-  width:auto;
-  padding-right:1.75rem;
-  margin-bottom:0rem;
+  height:auto;
+  width:100%;
+  padding-right:3%;
+  margin:auto;
+  display:inline-block;
+  vertical-align:middle;
 }
 
 /* Footer */

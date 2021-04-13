@@ -351,6 +351,19 @@ footer p {
 
 
 
+/*   ###########  ##########      ########    ############  ############   ##########
+    ##            ##       ##    ##      ##   ##                 ##       ##
+    ##            ##        ##  ##        ##  ##                 ##       ##
+    ##            ##       ##   ##        ##  ##########         ##        ##########
+    ##            ##########    ############  ##                 ##                 ##
+    ##            ##      ##    ##        ##  ##                 ##                 ##
+    ##            ##       ##   ##        ##  ##                 ##                 ##
+     ###########  ##        ##  ##        ##  ##                 ##        ##########   */
+
+
+
+
+
 
 /*   ##########   ##        ##  ##########  #########     ##########   ##########
     ##        ##  ##        ##      ##      ##      ##    ##          ##
@@ -365,17 +378,17 @@ footer p {
   width:90%;
   margin:auto;
 }
-.guide-name {
+.guide-card .card-title {
   font-size:2em;
   padding-bottom:0em;
   margin-bottom:.2em;
 }
-.guide-diff {
+.guide-card .difficulty {
   padding-top:0em;
   margin-top:0em;
   margin-bottom:.5em;
 }
-.guide-mtls {
+.guide-card .materials {
   font-weight:500;
   margin-top:0em;
   margin-bottom:.5em;

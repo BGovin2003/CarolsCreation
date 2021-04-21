@@ -360,7 +360,10 @@ footer p {
     ##            ##       ##   ##        ##  ##                 ##                 ##
      ###########  ##        ##  ##        ##  ##                 ##        ##########   */
 
-
+.craft-cards .row {
+  padding-top:.5rem;
+  padding-bottom:.5rem;
+}
 
 
 

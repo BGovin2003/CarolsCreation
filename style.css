@@ -34,7 +34,7 @@ Steel City Comic */
 
 body {
   background-color: #F2EDE6;
-  width:100%;
+  width: 100%;
 }
 
 /* Background colors (from palette) */
@@ -100,7 +100,7 @@ body {
 }
 
 .text-brightwhite {
-  color: #F2EDE6; 
+  color: #F2EDE6;
 }
 
 /* Button colors (from palette) */
@@ -109,8 +109,9 @@ body {
   color: #F2EDE6;
   font-weight: 500;
 }
-.btn-darkteal:hover{
-  color:#03a6a6;
+
+.btn-darkteal:hover {
+  color: #03a6a6;
 }
 
 .btn-teal {
@@ -118,8 +119,9 @@ body {
   color: #F2EDE6;
   font-weight: 500;
 }
-.btn-teal:hover{
-  color:#006F7A;
+
+.btn-teal:hover {
+  color: #006F7A;
 }
 
 .btn-red {
@@ -127,8 +129,9 @@ body {
   color: #F2EDE6;
   font-weight: 500;
 }
+
 .btn-red:hover {
-  color:#491A1B;
+  color: #491A1B;
 }
 
 .btn-pink {
@@ -136,8 +139,9 @@ body {
   color: #F2EDE6;
   font-weight: 500;
 }
+
 .btn-pink:hover {
-  color:#491A1B;
+  color: #491A1B;
 }
 
 .btn-lightpink {
@@ -145,8 +149,9 @@ body {
   color: #F2EDE6;
   font-weight: 500;
 }
+
 .btn-lightpink:hover {
-  color:#CC3035;
+  color: #CC3035;
 }
 
 .btn-darkwhite {
@@ -154,8 +159,9 @@ body {
   color: #CC3035;
   font-weight: 500;
 }
+
 .btn-darkwhite:hover {
-  color:#491A1B;
+  color: #491A1B;
 }
 
 .btn-brightwhite {
@@ -163,8 +169,9 @@ body {
   color: #CC3035;
   font-weight: 500;
 }
+
 .btn-brightwhite:hover {
-  color:#491A1B;
+  color: #491A1B;
 }
 
 /* soft black and grey text colors */
@@ -204,8 +211,8 @@ body {
 .guide-img {
   max-width: 100%;
   height: auto;
-  padding:.3em;
-  border-radius:.45rem;
+  padding: .3em;
+  border-radius: .45rem;
 }
 
 /* Carousel images */
@@ -234,18 +241,87 @@ body {
 
 /* Make text bold and underlined */
 .bold-u {
-  font-weight:bold;
-  text-decoration:underline;
+  font-weight: bold;
+  text-decoration: underline;
 }
 
 /* Add indent-like padding to the right*/
 .indent-right {
-  padding-right:.75rem;
+  padding-right: .75rem;
 }
 
 /* Add padding to top */
 .padding-top {
-  padding-top:.5rem;
+  padding-top: .5rem;
+}
+
+/* Jumbotron */
+.jumbotron {
+  background-color: #E2DCD1;
+}
+
+/* Page headers/names */
+.page-name {
+  font-family: 'Corben';
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+p {
+  font-family: 'Lexend';
+}
+
+.about-img {
+  width: 100%;
+  height: auto;
+  padding-bottom: 1rem;
+}
+
+.about {
+  font-size: 1.3rem;
+}
+
+.contact {
+  text-align: center;
+  font-family: 'Lexend';
+  font-weight: 600;
+}
+
+.contact-info {
+  font-family: 'Lexend';
+  font-size: 1.25rem;
+}
+
+.contact-info b {
+  font-weight: 700;
+}
+
+.contact-form {
+  font-size: 1.03rem;
+  font-family: 'Lexend';
+}
+
+.wip {
+  font-family: 'Lexend';
+  text-align: center;
+}
+
+.notif {
+  font-weight: 700;
+  font-style: italic;
+}
+
+.browse {
+  padding-top: .5rem;
+  padding-bottom: 1rem;
+}
+
+.wip a {
+  color: #CC3035;
+}
+
+.wip a:hover {
+  color: #491A1B;
 }
 
 
@@ -262,9 +338,13 @@ body {
 
 /* Logo */
 .navbar-img {
-  height:3.5rem;
-  width:auto;
-  padding-left:1.5rem;
+  height: 3.5rem;
+  width: auto;
+  padding-left: 1.5rem;
+}
+
+nav {
+  font-family: 'Lexend';
 }
 
 
@@ -284,13 +364,14 @@ body {
 .ftr-text {
   padding-top: .5em;
   padding-bottom: 0em;
+  font-size: 1.2rem;
 }
 
 .ftr-copy {
   text-align: center;
   color: #d1d7e2;
   padding-top: 1.3rem;
-  opacity:75%;
+  opacity: 75%;
 }
 
 /* Icons */
@@ -301,53 +382,110 @@ body {
   padding-bottom: .15em;
   padding-top: .2em;
 }
+
 .fa-envelope {
   padding-left: 1em;
   padding-right: 1em;
 }
-.fa-facebook-f:hover, .fa-envelope:hover, .fa-phone:hover {
-  color:#03a6a6;
+
+.fa-facebook-f:hover,
+.fa-envelope:hover,
+.fa-phone:hover {
+  color: #03a6a6;
 }
 
 /* Padding */
 .footer-padding {
   padding-top: 1rem;
-  padding-bottom:.25rem;
+  padding-bottom: .25rem;
 }
 
 /* Logo */
 .ftr-logo {
-  height:auto;
-  width:100%;
-  padding-right:3%;
-  margin:auto;
-  display:inline-block;
-  vertical-align:middle;
+  height: auto;
+  width: 100%;
+  padding-right: 3%;
+  margin: auto;
+  display: inline-block;
+  vertical-align: middle;
 }
 
 /* Footer */
 .ftr-header {
-  color:#F2EDE6;
+  color: #F2EDE6;
+  font-family: 'Lexend';
+  font-weight: 500;
 }
+
 footer p {
-  color:#D89288;
+  color: #D89288;
 }
 
 /* Horizontal Rules */
-.ftr-hr, .icons-hr {
-  background-color:#E2DCD1;
-  opacity:25%;
-}
+.ftr-hr,
 .icons-hr {
-  width:25%;
+  background-color: #E2DCD1;
+  opacity: 25%;
 }
+
+.icons-hr {
+  width: 25%;
+}
+
 .ftr-hr {
-  width:85%;
+  width: 85%;
 }
+
 .i-hr-bottom {
-  padding-bottom:0em;
-  margin-bottom:.25rem;
+  padding-bottom: 0em;
+  margin-bottom: .25rem;
 }
+
+
+
+
+/*  ##        ##   ##########   ####      ####  ############
+    ##        ##  ##        ##  ## ##    ## ##  ##
+    ##        ##  ##        ##  ##  ##  ##  ##  ##
+    ############  ##        ##  ##   ####   ##  ##########
+    ##        ##  ##        ##  ##    ##    ##  ##
+    ##        ##  ##        ##  ##          ##  ##
+    ##        ##  ##        ##  ##          ##  ##
+    ##        ##   ##########   ##          ##  ############  */
+
+.jumbotron-header {
+  font-family: 'Lexend';
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.home {
+  font-size: 1.2rem;
+}
+
+.home a {
+  color: #CC3035;
+}
+
+.home a:hover {
+  color: #491A1B;
+}
+
+.motto {
+  font-family: 'Lexend';
+  font-weight: 700;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.display-img {
+  width: 100%;
+  height: auto;
+  padding-top: 1.5rem;
+  padding-bottom: 2rem;
+}
+
+
 
 
 
@@ -361,8 +499,8 @@ footer p {
      ###########  ##        ##  ##        ##  ##                 ##        ##########   */
 
 .craft-cards .row {
-  padding-top:.5rem;
-  padding-bottom:.5rem;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
 }
 
 
@@ -378,46 +516,54 @@ footer p {
      ##########    ##########   ##########  #########     ##########   ##########   */
 
 .guide-card {
-  width:90%;
-  margin:auto;
+  width: 90%;
+  margin: auto;
 }
+
 .guide-card .card-title {
-  font-size:2em;
-  padding-bottom:0em;
-  margin-bottom:.2em;
+  font-size: 2em;
+  padding-bottom: 0em;
+  margin-bottom: .2em;
 }
+
 .guide-card .difficulty {
-  padding-top:0em;
-  margin-top:0em;
-  margin-bottom:.5em;
+  padding-top: 0em;
+  margin-top: 0em;
+  margin-bottom: .5em;
 }
+
 .guide-card .materials {
-  font-weight:500;
-  margin-top:0em;
-  margin-bottom:.5em;
-  font-style:italic;
+  font-weight: 500;
+  margin-top: 0em;
+  margin-bottom: .5em;
+  font-style: italic;
 }
 
 /* Horizontal rule */
 .guide-hr {
-  margin-top:.3em;
+  margin-top: .3em;
 }
 
 /* Icons and difficulty */
-.fa-user-check, .beginner {
-  color:#2AB83E;
+.fa-user-check,
+.beginner {
+  color: #2AB83E;
 }
-.fa-user-clock, .intermediate {
-  color:#E8AD00;
+
+.fa-user-clock,
+.intermediate {
+  color: #E8AD00;
 }
-.fa-user-lock, .advanced {
-  color:#B82A2A;
+
+.fa-user-lock,
+.advanced {
+  color: #B82A2A;
 }
 
 /* Guide basics */
 .guide-basics {
-  margin-top:.5em;
-  margin-bottom:.5em;
+  margin-top: .5em;
+  margin-bottom: .5em;
 }
 
 
@@ -461,7 +607,7 @@ input[type=submit] {
   border-radius: 4px;
   cursor: pointer;
   float: right;
-  width:100%;
+  width: 100%;
 }
 
 /* Style the container */

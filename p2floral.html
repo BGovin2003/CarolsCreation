@@ -1,7 +1,3 @@
-
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -10,10 +6,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="keywords"
-    content="Carol's Creations knitting, how to knit, knitting guide, knitting, beginner knitting, DIY knitting, how to purl, beginner, knit, purl">
+    content="Jackson TN, Lexington TN, floral crafts for sale, for sale, shirts, floral decor, home decor, door hangers, floral designs">
   <meta name="author" content="HTMLephants, Alondre Jenkins, Bansi Govin, Alaina Gowan">
-  <meta name="description" content="Teaches the user various decorative and/or useful knitting stitches/patterns.">
-  <title>Knitting Stitches | Carol's Creations</title>
+  <meta name="description" content="Showcases the different crafts with floral designs.">
+  <title>Floral Decor | Carol's Creations</title>
+
+  <!-- Bootstrap Files -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
     integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
@@ -25,8 +23,16 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
     integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous">
   </script>
+
+  <!-- Font Awesome Icons-->
   <script src="https://kit.fontawesome.com/468ec12282.js" crossorigin="anonymous"></script>
+
+  <!-- Local CSS -->
   <link rel="stylesheet" href="style.css">
+
+  <!-- Font Files -->
+  <link href='https://fonts.googleapis.com/css?family=Corben|Lexend' rel='stylesheet'>
+
 </head>
 
 <body>
@@ -45,18 +51,18 @@
         <!-- Navbar links-->
         <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            <a class="nav-link" href="index.html">Home</a>
           </li>
 
           <!-- Navbar dropdown -->
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" role="button" data-toggle="dropdown"
-              aria-expanded="false">
+            <a class="nav-link dropdown-toggle active" aria-current="page" href="#" id="navbardrop" role="button"
+              data-toggle="dropdown" aria-expanded="false">
               Creations
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbardrop">
-              <li><a class="dropdown-item" href="p1wood.html">Woodworking</a></li>
-              <li><a class="dropdown-item" href="p2fabric.html">Fabrics</a></li>
+              <li><a class="dropdown-item" href="p1wood.html">Wooden</a></li>
+              <li><a class="dropdown-item" href="p2floral.html">Floral</a></li>
               <li>
                 <hr class="dropdown-divider">
               </li>
@@ -75,18 +81,18 @@
             <a class="nav-link" href="p6contact.html">Contact</a>
           </li>
         </ul>
-        
+
       </div>
 
 
-        <!-- Navbar logo -->
-        <a class="navbar-brand" href="#">
-          <img class="navbar-img" src="images/logo.png">
-        </a>
+      <!-- Navbar logo -->
+      <a class="navbar-brand" href="index.html">
+        <img class="navbar-img" src="images/logo.png">
+      </a>
 
 
-        <!-- Navbar search -->
-        <!--
+      <!-- Navbar search -->
+      <!--
         <form class="d-flex">
           <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
           <button class="btn btn-outline-light" type="submit">Search</button>
@@ -94,54 +100,30 @@
     </div>
   </nav>
 
+  <h1 class="display-2 text-red page-name sale-page-name">Floral Decor</h1>
+  <h2 class="wip notif">Whoops! This page is still a work in progress.</h2>
+  <h3 class="wip browse">Please browse in
+    <a href="p3allcrafts.html">All Items</a> to see some example floral crafts.</h3>
 
-  <h1 class="display-3 text-red page-name howto-name">Guide to Knitting - Knitting Stitch Patterns</h1>
-
-  <h4><i>by Alaina Gowan, niece of Carol</i></h4>
+  <!-- 
+  <h1 class="display-2 text-red page-name sale-page-name">Fabric Decor</h1>
   <div class="container">
     <div class="row">
       <div class="col-sm">
-        One of three columns
+        <h2>Products For Sale</h2>
+        <h4>Fabric Cross with a Patterned Design</h4>
+        <img src="images/patterncross.jpg" alt="Patterned Cross" class="img-thumbnail">
+        <h4>Fabric Cross with a Flowery Design</h4>
+        <img src="images/flowercross.jpg" alt="Flower fabric Cross" class="img-thumbnail">
+        <h4>Tshirt with a Heart Printed in Middle</h4>
+        <img src="images/lpdshirt.jpg" alt="heart tshirt" class="img-thumbnail">
       </div>
       <div class="col-sm">
-        One of three columns
-      </div>
-      <div class="col-sm">
-        One of three columns
-      </div>
-    </div>
-  </div>
+        <h2>Description of Products</h2>
 
-  <div class="jumbotron jumbotron-fluid">
-    <div class="container">
-      <p><span class="first-line">Knitting... We've all seen it!</span> Whether in real life or on film, the
-        cliche of little old ladies knitting in rocking chairs or on the bus is not a rare sight. If you're like
-        me, you sit and watch nonchalantly, but the gears in your head are turning -
-        <i>How does the yarn stay woven together? How does she alternate the colors so smoothly? How does she
-          make the gaps and textures?</i> - and I'm sure you've at least considered trying it for yourself.
-        <br>
-        Look no further, for I am here to save the day! This beginners' guide contains all you will need to
-        learn how to knit. Trust me, it's simpler than you think... So come on in, and let's get knitting!
-      </p>
-    </div>
-  </div>
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-12 col-md-3 col-lg-4">
-        <img src="#"
-          class="tutorial-img rounded" alt="Image">
-      </div>
-      <div class="col-sm-12 col-md-9 col-lg-8">
-        <p>Text</p>
       </div>
     </div>
-  </div>
-
-  <!-- PICTURES NEEDED
-    step-by-step casting on
-    continental yarn holds
-    english yarn holds
--->
+  </div>-->
 
   <!-- Footer -->
   <footer>

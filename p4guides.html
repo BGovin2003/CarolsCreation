@@ -11,6 +11,8 @@
   <meta name="description"
     content="Links to several DIY guides/tutorials, along with descriptions and difficulty levels for each craft.">
   <title>DIY Guides | Carol's Creations</title>
+
+  <!-- Bootstrap Files -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
     integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
@@ -22,8 +24,16 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
     integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous">
   </script>
+
+  <!-- Font Awesome Icons-->
   <script src="https://kit.fontawesome.com/468ec12282.js" crossorigin="anonymous"></script>
+
+  <!-- Local CSS -->
   <link rel="stylesheet" href="style.css">
+
+  <!-- Font Files -->
+  <link href='https://fonts.googleapis.com/css?family=Corben|Lexend' rel='stylesheet'>
+
 </head>
 
 <body>
@@ -52,8 +62,8 @@
               Creations
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbardrop">
-              <li><a class="dropdown-item" href="p1wood.html">Woodworking</a></li>
-              <li><a class="dropdown-item" href="p2fabric.html">Fabrics</a></li>
+              <li><a class="dropdown-item" href="p1wood.html">Wooden</a></li>
+              <li><a class="dropdown-item" href="p2floral.html">Floral</a></li>
               <li>
                 <hr class="dropdown-divider">
               </li>
@@ -77,7 +87,7 @@
 
 
       <!-- Navbar logo -->
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand" href="index.html">
         <img class="navbar-img" src="images/logo.png">
       </a>
 
@@ -94,76 +104,66 @@
 
   <h1 class="display-2 text-red page-name guide-page-name">Guides & DIY's</h1>
 
-  <!-- Column headers -->
-  <div class="container">
-    <div class="row">
-      <div class="col-6">
-        <h2 class="col-header">Learn to Craft!</h2>
-      </div>
-      <div class="col-6">
-        <p class="col-desc">Difficulty, Materials, Description</p>
-      </div>
-    </div>
-  </div>
-
   <!-- Guides -->
-<div class="container-fluid">
+  <div class="container-fluid">
 
-  <!-- How to Knit -->
-  <div class="row">
-    <div class="col-12">
-      <div class="card mb-3 guide-card bg-darkwhite">
-        <div class="row no-gutters">
-          <div class="col-md-5">
-            <img src="images/english-knitting.jpg" class="card-img" alt="Knitting">
-          </div>
-          <div class="col-md-7">
-            <div class="card-body">
-              <h5 class="card-title">How to Knit</h5>
-              <p class="card-text difficulty beginner">
-                <i class="fas fa-user-check"></i>
-                Beginner
-              </p>
-              <p class="card-text materials">knitting needles, yarn, scissors/yarn cutters</p>
-              <hr class="guide-hr">
-              <p class="card-text description">Beginner's guide how to knit! Learn all the basics, including casting on,
-                knitting, purling, binding off, and more!</p>
-              <a href="p7howtoknit.html" class="btn btn-pink">Learn how!</a>
+    <!-- How to Knit -->
+    <div class="row">
+      <div class="col-12">
+        <div class="card mb-3 guide-card bg-darkwhite">
+          <div class="row no-gutters">
+            <div class="col-md-5">
+              <img src="images/english-knitting.jpg" class="card-img" alt="Knitting">
+            </div>
+            <div class="col-md-7">
+              <div class="card-body">
+                <h5 class="card-title">How to Knit</h5>
+                <p class="card-text difficulty beginner">
+                  <i class="fas fa-user-check"></i>
+                  Beginner
+                </p>
+                <p class="card-text materials">knitting needles, yarn, scissors/yarn cutters</p>
+                <hr class="guide-hr">
+                <p class="card-text description">Beginner's guide how to knit! Learn all the basics, including casting
+                  on,
+                  knitting, purling, binding off, and more!</p>
+                <a href="#" class="btn btn-pink disabled">Coming soon!</a>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
 
-  <!-- Knitting stitches -->
-  <div class="row">
-    <div class="col-12">
-      <div class="card mb-3 guide-card bg-darkwhite">
-        <div class="row no-gutters">
-          <div class="col-md-5">
-            <img src="#" class="card-img" alt="...">
-          </div>
-          <div class="col-md-7">
-            <div class="card-body">
-              <h5 class="card-title">Knitting Stitch Patterns</h5>
-              <p class="card-text difficulty intermediate">
-                <i class="fas fa-user-clock"></i>
-                Intermediate
-              </p>
-              <p class="card-text materials">knitting needles, yarn, scissors/yarn cutters, cable needle (some
-                patterns)</p>
-              <hr class="guide-hr">
-              <p class="card-text description">Knitting stitch patterns for those who already know how to knit.</p>
-              <a href="p8stitches.html" class="btn btn-pink">Learn how!</a>
+    <!-- Knitting stitches -->
+    <div class="row">
+      <div class="col-12">
+        <div class="card mb-3 guide-card bg-darkwhite">
+          <div class="row no-gutters">
+            <div class="col-md-5">
+              <img src="images/knitting-pattern.jpg" class="card-img" alt="...">
+            </div>
+            <div class="col-md-7">
+              <div class="card-body">
+                <h5 class="card-title">Knitting Stitch Patterns</h5>
+                <p class="card-text difficulty intermediate">
+                  <i class="fas fa-user-clock"></i>
+                  Intermediate
+                </p>
+                <p class="card-text materials">knitting needles, yarn, scissors/yarn cutters, cable needle (some
+                  patterns)</p>
+                <hr class="guide-hr">
+                <p class="card-text description">Knitting stitch patterns for those who already know how to knit.</p>
+                <a href="#" class="btn btn-pink disabled">Coming soon!</a>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
 
-  <!-- Guide placeholder -->
+    <!-- Guide placeholder -->
+    <!--
   <div class="row">
     <div class="col-12">
       <div class="card mb-3 guide-card bg-darkwhite">
@@ -185,8 +185,9 @@
       </div>
     </div>
   </div>
- 
-</div>
+-->
+
+  </div>
 
 
 

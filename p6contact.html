@@ -10,6 +10,8 @@
   <meta name="author" content="HTMLephants, Alondre Jenkins, Bansi Govin, Alaina Gowan">
   <meta name="description" content="Gives the customer a way to contact owner and request a custom design.">
   <title>Contact | Carol's Creations</title>
+
+  <!-- Bootstrap Files -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
     integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
@@ -21,8 +23,16 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
     integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous">
   </script>
+
+  <!-- Font Awesome Icons-->
   <script src="https://kit.fontawesome.com/468ec12282.js" crossorigin="anonymous"></script>
+
+  <!-- Local CSS -->
   <link rel="stylesheet" href="style.css">
+
+  <!-- Font Files -->
+  <link href='https://fonts.googleapis.com/css?family=Corben|Lexend' rel='stylesheet'>
+
 </head>
 
 <body>
@@ -51,8 +61,8 @@
               Creations
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbardrop">
-              <li><a class="dropdown-item" href="p1wood.html">Woodworking</a></li>
-              <li><a class="dropdown-item" href="p2fabric.html">Fabrics</a></li>
+              <li><a class="dropdown-item" href="p1wood.html">Wooden</a></li>
+              <li><a class="dropdown-item" href="p2floral.html">Floral</a></li>
               <li>
                 <hr class="dropdown-divider">
               </li>
@@ -71,18 +81,18 @@
             <a class="nav-link active" aria-current="page" href="p6contact.html">Contact</a>
           </li>
         </ul>
-        
+
       </div>
 
 
-        <!-- Navbar logo -->
-        <a class="navbar-brand" href="#">
-          <img class="navbar-img" src="images/logo.png">
-        </a>
+      <!-- Navbar logo -->
+      <a class="navbar-brand" href="index.html">
+        <img class="navbar-img" src="images/logo.png">
+      </a>
 
 
-        <!-- Navbar search -->
-        <!--
+      <!-- Navbar search -->
+      <!--
         <form class="d-flex">
           <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
           <button class="btn btn-outline-light" type="submit">Search</button>
@@ -93,14 +103,14 @@
 
   <h1 class="display-2 text-red page-name contact-name">Contact</h1>
 
-  <h2>Need some ways to reach me?</h2>
+  <h2 class="contact">Need some ways to reach me?</h2>
   <div class="container">
     <div class="row">
-      <div class="col-sm">
-        Phone: (731)616-3256<br>
-        Email: randcjowers@yahoo.com<br>
-        Hours: 6pm - 8pm<br>
-        Service Areas:
+      <div class="col-sm contact-info">
+        <b>Phone:</b> (731) 616-3256<br>
+        <b>Email:</b> randcjowers@yahoo.com<br>
+        <b>Hours:</b> 6pm - 8pm<br>
+        <b>Service Areas:</b>
         <ul>
           <li>Lexington, TN</li>
           <li>Jackson, TN</li>
@@ -111,7 +121,7 @@
       </div>
     </div>
   </div>
-  <div class="container" id="formpage">
+  <div class="container contact-form" id="formpage">
     <form id="emailform" name="myemailform" action="https://formspree.io/f/xgerwzao" accept-charset="utf-8"
       method="POST">
       <div class="row formrow">
